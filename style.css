@@ -1,0 +1,20 @@
+#flex-container{
+    display: flex;
+    background-color: rgb(161, 190, 190);
+    /*flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+#flex-container > div{
+    background-color:antiquewhite;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
